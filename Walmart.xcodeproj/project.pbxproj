@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3A4F621FD350990077823D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4F611FD350990077823D /* AppDelegate.swift */; };
+		3B3A4F641FD350990077823D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4F631FD350990077823D /* ViewController.swift */; };
+		3B3A4F671FD350990077823D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A4F651FD350990077823D /* Main.storyboard */; };
+		3B3A4F691FD350990077823D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A4F681FD350990077823D /* Assets.xcassets */; };
+		3B3A4F6C1FD350990077823D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A4F6A1FD350990077823D /* LaunchScreen.storyboard */; };
+		3B3A4F771FD350990077823D /* WalmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4F761FD350990077823D /* WalmartTests.swift */; };
+		3B3A4F821FD3509A0077823D /* WalmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4F811FD3509A0077823D /* WalmartUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B3A4F731FD350990077823D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B3A4F561FD350990077823D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3A4F5D1FD350990077823D;
+			remoteInfo = Walmart;
+		};
+		3B3A4F7E1FD3509A0077823D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B3A4F561FD350990077823D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3A4F5D1FD350990077823D;
+			remoteInfo = Walmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B3A4F5E1FD350990077823D /* Walmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3A4F611FD350990077823D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B3A4F631FD350990077823D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B3A4F661FD350990077823D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B3A4F681FD350990077823D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B3A4F6B1FD350990077823D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B3A4F6D1FD350990077823D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3A4F721FD350990077823D /* WalmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3A4F761FD350990077823D /* WalmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartTests.swift; sourceTree = "<group>"; };
+		3B3A4F781FD3509A0077823D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3A4F7D1FD3509A0077823D /* WalmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3A4F811FD3509A0077823D /* WalmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartUITests.swift; sourceTree = "<group>"; };
+		3B3A4F831FD3509A0077823D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B3A4F5B1FD350990077823D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3A4F6F1FD350990077823D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3A4F7A1FD3509A0077823D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3A4F551FD350990077823D = {
+			isa = PBXGroup;
+			children = (
+				3B3A4F601FD350990077823D /* Walmart */,
+				3B3A4F751FD350990077823D /* WalmartTests */,
+				3B3A4F801FD3509A0077823D /* WalmartUITests */,
+				3B3A4F5F1FD350990077823D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B3A4F5F1FD350990077823D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A4F5E1FD350990077823D /* Walmart.app */,
+				3B3A4F721FD350990077823D /* WalmartTests.xctest */,
+				3B3A4F7D1FD3509A0077823D /* WalmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B3A4F601FD350990077823D /* Walmart */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A4F611FD350990077823D /* AppDelegate.swift */,
+				3B3A4F631FD350990077823D /* ViewController.swift */,
+				3B3A4F651FD350990077823D /* Main.storyboard */,
+				3B3A4F681FD350990077823D /* Assets.xcassets */,
+				3B3A4F6A1FD350990077823D /* LaunchScreen.storyboard */,
+				3B3A4F6D1FD350990077823D /* Info.plist */,
+			);
+			path = Walmart;
+			sourceTree = "<group>";
+		};
+		3B3A4F751FD350990077823D /* WalmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A4F761FD350990077823D /* WalmartTests.swift */,
+				3B3A4F781FD3509A0077823D /* Info.plist */,
+			);
+			path = WalmartTests;
+			sourceTree = "<group>";
+		};
+		3B3A4F801FD3509A0077823D /* WalmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A4F811FD3509A0077823D /* WalmartUITests.swift */,
+				3B3A4F831FD3509A0077823D /* Info.plist */,
+			);
+			path = WalmartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B3A4F5D1FD350990077823D /* Walmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3A4F861FD3509A0077823D /* Build configuration list for PBXNativeTarget "Walmart" */;
+			buildPhases = (
+				3B3A4F5A1FD350990077823D /* Sources */,
+				3B3A4F5B1FD350990077823D /* Frameworks */,
+				3B3A4F5C1FD350990077823D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Walmart;
+			productName = Walmart;
+			productReference = 3B3A4F5E1FD350990077823D /* Walmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B3A4F711FD350990077823D /* WalmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3A4F891FD3509A0077823D /* Build configuration list for PBXNativeTarget "WalmartTests" */;
+			buildPhases = (
+				3B3A4F6E1FD350990077823D /* Sources */,
+				3B3A4F6F1FD350990077823D /* Frameworks */,
+				3B3A4F701FD350990077823D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B3A4F741FD350990077823D /* PBXTargetDependency */,
+			);
+			name = WalmartTests;
+			productName = WalmartTests;
+			productReference = 3B3A4F721FD350990077823D /* WalmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B3A4F7C1FD3509A0077823D /* WalmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3A4F8C1FD3509A0077823D /* Build configuration list for PBXNativeTarget "WalmartUITests" */;
+			buildPhases = (
+				3B3A4F791FD3509A0077823D /* Sources */,
+				3B3A4F7A1FD3509A0077823D /* Frameworks */,
+				3B3A4F7B1FD3509A0077823D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B3A4F7F1FD3509A0077823D /* PBXTargetDependency */,
+			);
+			name = WalmartUITests;
+			productName = WalmartUITests;
+			productReference = 3B3A4F7D1FD3509A0077823D /* WalmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B3A4F561FD350990077823D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sudeep Kanikunnel Surendran";
+				TargetAttributes = {
+					3B3A4F5D1FD350990077823D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					3B3A4F711FD350990077823D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B3A4F5D1FD350990077823D;
+					};
+					3B3A4F7C1FD3509A0077823D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B3A4F5D1FD350990077823D;
+					};
+				};
+			};
+			buildConfigurationList = 3B3A4F591FD350990077823D /* Build configuration list for PBXProject "Walmart" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B3A4F551FD350990077823D;
+			productRefGroup = 3B3A4F5F1FD350990077823D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B3A4F5D1FD350990077823D /* Walmart */,
+				3B3A4F711FD350990077823D /* WalmartTests */,
+				3B3A4F7C1FD3509A0077823D /* WalmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B3A4F5C1FD350990077823D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3A4F6C1FD350990077823D /* LaunchScreen.storyboard in Resources */,
+				3B3A4F691FD350990077823D /* Assets.xcassets in Resources */,
+				3B3A4F671FD350990077823D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3A4F701FD350990077823D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3A4F7B1FD3509A0077823D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B3A4F5A1FD350990077823D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3A4F641FD350990077823D /* ViewController.swift in Sources */,
+				3B3A4F621FD350990077823D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3A4F6E1FD350990077823D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3A4F771FD350990077823D /* WalmartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3A4F791FD3509A0077823D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3A4F821FD3509A0077823D /* WalmartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B3A4F741FD350990077823D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B3A4F5D1FD350990077823D /* Walmart */;
+			targetProxy = 3B3A4F731FD350990077823D /* PBXContainerItemProxy */;
+		};
+		3B3A4F7F1FD3509A0077823D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B3A4F5D1FD350990077823D /* Walmart */;
+			targetProxy = 3B3A4F7E1FD3509A0077823D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B3A4F651FD350990077823D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3A4F661FD350990077823D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B3A4F6A1FD350990077823D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3A4F6B1FD350990077823D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B3A4F841FD3509A0077823D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B3A4F851FD3509A0077823D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B3A4F871FD3509A0077823D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Walmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sudeep.Walmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B3A4F881FD3509A0077823D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Walmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sudeep.Walmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B3A4F8A1FD3509A0077823D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WalmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sudeep.WalmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walmart.app/Walmart";
+			};
+			name = Debug;
+		};
+		3B3A4F8B1FD3509A0077823D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WalmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sudeep.WalmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walmart.app/Walmart";
+			};
+			name = Release;
+		};
+		3B3A4F8D1FD3509A0077823D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WalmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sudeep.WalmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Walmart;
+			};
+			name = Debug;
+		};
+		3B3A4F8E1FD3509A0077823D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WalmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sudeep.WalmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Walmart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B3A4F591FD350990077823D /* Build configuration list for PBXProject "Walmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3A4F841FD3509A0077823D /* Debug */,
+				3B3A4F851FD3509A0077823D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3A4F861FD3509A0077823D /* Build configuration list for PBXNativeTarget "Walmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3A4F871FD3509A0077823D /* Debug */,
+				3B3A4F881FD3509A0077823D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3A4F891FD3509A0077823D /* Build configuration list for PBXNativeTarget "WalmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3A4F8A1FD3509A0077823D /* Debug */,
+				3B3A4F8B1FD3509A0077823D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3A4F8C1FD3509A0077823D /* Build configuration list for PBXNativeTarget "WalmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3A4F8D1FD3509A0077823D /* Debug */,
+				3B3A4F8E1FD3509A0077823D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B3A4F561FD350990077823D /* Project object */;
+}
