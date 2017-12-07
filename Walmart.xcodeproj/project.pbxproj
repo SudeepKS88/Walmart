@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2C6DA71FD8FE1200A03BEE /* ProductDetailSwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C6DA61FD8FE1200A03BEE /* ProductDetailSwipeController.swift */; };
+		3B2C6DAF1FD91CDE00A03BEE /* PagedProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2C6DAE1FD91CDE00A03BEE /* PagedProductCell.swift */; };
 		3B3A4F621FD350990077823D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4F611FD350990077823D /* AppDelegate.swift */; };
-		3B3A4F641FD350990077823D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4F631FD350990077823D /* ViewController.swift */; };
 		3B3A4F671FD350990077823D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A4F651FD350990077823D /* Main.storyboard */; };
 		3B3A4F691FD350990077823D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A4F681FD350990077823D /* Assets.xcassets */; };
 		3B3A4F6C1FD350990077823D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A4F6A1FD350990077823D /* LaunchScreen.storyboard */; };
 		3B3A4F771FD350990077823D /* WalmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4F761FD350990077823D /* WalmartTests.swift */; };
 		3B3A4F821FD3509A0077823D /* WalmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4F811FD3509A0077823D /* WalmartUITests.swift */; };
+		3B3A4F911FD351610077823D /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4F901FD351610077823D /* ProductsViewController.swift */; };
+		3B3A4F981FD357690077823D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4F971FD357690077823D /* Product.swift */; };
+		3B3A4F9B1FD358A50077823D /* ProductListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4F9A1FD358A50077823D /* ProductListPresenter.swift */; };
+		3B3A4F9E1FD364570077823D /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4F9D1FD364570077823D /* ProductTableViewCell.swift */; };
+		3B3A4FA41FD476B90077823D /* JSONParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4FA31FD476B90077823D /* JSONParsing.swift */; };
+		3B3A4FE11FD4AF9D0077823D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4FE01FD4AF9D0077823D /* NetworkService.swift */; };
+		3B3A4FE41FD4C04C0077823D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4FE31FD4C04C0077823D /* RatingView.swift */; };
+		3B3A4FE61FD4D3650077823D /* ProductImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4FE51FD4D3650077823D /* ProductImageView.swift */; };
+		3B3A4FEB1FD4D91A0077823D /* HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A4FEA1FD4D91A0077823D /* HelperMethods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B2C6DA61FD8FE1200A03BEE /* ProductDetailSwipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailSwipeController.swift; sourceTree = "<group>"; };
+		3B2C6DAE1FD91CDE00A03BEE /* PagedProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedProductCell.swift; sourceTree = "<group>"; };
 		3B3A4F5E1FD350990077823D /* Walmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3A4F611FD350990077823D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B3A4F631FD350990077823D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B3A4F661FD350990077823D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B3A4F681FD350990077823D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B3A4F6B1FD350990077823D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,15 @@
 		3B3A4F7D1FD3509A0077823D /* WalmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3A4F811FD3509A0077823D /* WalmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalmartUITests.swift; sourceTree = "<group>"; };
 		3B3A4F831FD3509A0077823D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3A4F901FD351610077823D /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		3B3A4F971FD357690077823D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Product.swift; path = Model/Product.swift; sourceTree = "<group>"; };
+		3B3A4F9A1FD358A50077823D /* ProductListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListPresenter.swift; sourceTree = "<group>"; };
+		3B3A4F9D1FD364570077823D /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		3B3A4FA31FD476B90077823D /* JSONParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsing.swift; sourceTree = "<group>"; };
+		3B3A4FE01FD4AF9D0077823D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		3B3A4FE31FD4C04C0077823D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		3B3A4FE51FD4D3650077823D /* ProductImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImageView.swift; sourceTree = "<group>"; };
+		3B3A4FEA1FD4D91A0077823D /* HelperMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperMethods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +117,13 @@
 		3B3A4F601FD350990077823D /* Walmart */ = {
 			isa = PBXGroup;
 			children = (
+				3B3A4F8F1FD351430077823D /* Controller */,
+				3B3A4F9C1FD364320077823D /* Views */,
+				3B3A4F941FD357320077823D /* Model */,
+				3B3A4FDF1FD4AF750077823D /* Network */,
+				3B3A4FE91FD4D90E0077823D /* Helper */,
+				3B3A4FA21FD476930077823D /* Parsing */,
 				3B3A4F611FD350990077823D /* AppDelegate.swift */,
-				3B3A4F631FD350990077823D /* ViewController.swift */,
 				3B3A4F651FD350990077823D /* Main.storyboard */,
 				3B3A4F681FD350990077823D /* Assets.xcassets */,
 				3B3A4F6A1FD350990077823D /* LaunchScreen.storyboard */,
@@ -123,6 +148,75 @@
 				3B3A4F831FD3509A0077823D /* Info.plist */,
 			);
 			path = WalmartUITests;
+			sourceTree = "<group>";
+		};
+		3B3A4F8F1FD351430077823D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A4F991FD358680077823D /* ProductList */,
+				3B3A4F9F1FD375980077823D /* ProductDetails */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B3A4F941FD357320077823D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A4F971FD357690077823D /* Product.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3B3A4F991FD358680077823D /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A4F901FD351610077823D /* ProductsViewController.swift */,
+				3B3A4F9A1FD358A50077823D /* ProductListPresenter.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		3B3A4F9C1FD364320077823D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A4F9D1FD364570077823D /* ProductTableViewCell.swift */,
+				3B3A4FE31FD4C04C0077823D /* RatingView.swift */,
+				3B3A4FE51FD4D3650077823D /* ProductImageView.swift */,
+				3B2C6DAE1FD91CDE00A03BEE /* PagedProductCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B3A4F9F1FD375980077823D /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				3B2C6DA61FD8FE1200A03BEE /* ProductDetailSwipeController.swift */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		3B3A4FA21FD476930077823D /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A4FA31FD476B90077823D /* JSONParsing.swift */,
+			);
+			path = Parsing;
+			sourceTree = "<group>";
+		};
+		3B3A4FDF1FD4AF750077823D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A4FE01FD4AF9D0077823D /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3B3A4FE91FD4D90E0077823D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A4FEA1FD4D91A0077823D /* HelperMethods.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +353,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B3A4F641FD350990077823D /* ViewController.swift in Sources */,
+				3B3A4F9B1FD358A50077823D /* ProductListPresenter.swift in Sources */,
+				3B3A4F911FD351610077823D /* ProductsViewController.swift in Sources */,
+				3B3A4FE61FD4D3650077823D /* ProductImageView.swift in Sources */,
+				3B3A4FA41FD476B90077823D /* JSONParsing.swift in Sources */,
+				3B2C6DA71FD8FE1200A03BEE /* ProductDetailSwipeController.swift in Sources */,
+				3B3A4FE41FD4C04C0077823D /* RatingView.swift in Sources */,
+				3B3A4FEB1FD4D91A0077823D /* HelperMethods.swift in Sources */,
+				3B3A4F981FD357690077823D /* Product.swift in Sources */,
+				3B2C6DAF1FD91CDE00A03BEE /* PagedProductCell.swift in Sources */,
+				3B3A4FE11FD4AF9D0077823D /* NetworkService.swift in Sources */,
 				3B3A4F621FD350990077823D /* AppDelegate.swift in Sources */,
+				3B3A4F9E1FD364570077823D /* ProductTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
